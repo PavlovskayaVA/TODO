@@ -34,6 +34,7 @@ button {
     padding: 8px;
     margin: 16px;
     cursor: pointer;
+    width: 180px
 }
 
 button:hover {
@@ -82,7 +83,6 @@ span {
   
 .main {
     background-color: #2F4F4F;
-    height: 60vh;
 }
 
 .tasksList {
@@ -112,4 +112,18 @@ span {
     font-family: "Roboto Condensed", sans-serif;
     padding: 8px;
     margin: 16px;
+}
+
+.footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+@media (max-width: 600px) 
+{
+    .tasks {
+        flex-wrap: wrap;
+    }
 }
