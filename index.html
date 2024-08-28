@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css"></head>
+    <link rel="stylesheet" href="./style.css"></head>
+    <title>TO DO</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">TO DO</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="buttonGroup">
+                <button class='buttonTasksToday active'>Задачи на сегодня</button>
+                <button class='buttonTasksWeek'>Задачи на неделю</button>
+            </div>
+            <ol class='tasksList'></ol>
+            <form class='form'>
+                <label>
+                    <input placeholder="Введите новую задачу...">
+                </label>
+                <span>
+                    <button class='buttonAddTask'>
+                        Добавить задачу
+                    </button>
+                    <button class='buttonRemoveTasks'>
+                        Удалить все задачи
+                    </button>
+                </span>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container"> 
+            <span class='doneTask'></span>
+            <span class='allTask'></span>
+            <span class='percent'></span>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+/* Add your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header {
+    background-color: #F8F8FF;
+    height: 10vh;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 32px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+button {
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    background-color: none;
+    border: none;
+    box-shadow: 10px 5px 5px #233b3b;
+    padding: 8px;
+    margin: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 10px 5px 5px #182727;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+label {
+    width: 100%;
+}
+
+input {
+    background-color: #F8F8FF;
+    border: 2px solid #182727;
+    box-shadow: 10px 5px 5px #233b3b;
+    padding: 8px;
+    margin: 16px;
+    height: 20px;
+    outline: none;
+    width: 80%;
+}
+
+input::placeholder {
+    color: #182727;
+    font: 14px sans-serif;
+}
+
+span {
+    margin: 0 auto;
+}
+
+.toggle {
+    text-decoration:line-through;
+  }
+  
+.active {
+    background-color: black;
+    color: white;
+}
+  
+.main {
+    background-color: #2F4F4F;
+    height: 60vh;
+}
+
+.tasksList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.tasks {
+    display: flex;
+}
+
+.title {
+    margin-left: 16px;
+    font-size: 32px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.footer {
+    background-color: #2F4F4F;
+    height: 30vh;
+}
+
+.footer span {
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 8px;
+    margin: 16px;
+}
