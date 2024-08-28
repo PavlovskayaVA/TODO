@@ -93,6 +93,7 @@ span {
 
 .tasks {
     display: flex;
+    align-items: center;
 }
 
 .title {
